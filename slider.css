@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+
+ul li img {
+    width: 1534px;
+    height: 401px;
+}
+
+.slider {
+    height: 495px;
+
+}
+
+.slider_items {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    animation: slide 60s infinite;
+}
+
+@keyframes slide {
+    10% {
+        transform: translateX(0);
+    }
+
+    11%, 20% {
+        transform: translateX(-1533px);
+    }
+
+    21%, 30% {
+        transform: translateX(-3064px);
+    }
+
+    31%,40% {
+        transform: translateX(-4600px);
+    }
+
+    41%,50% {
+        transform: translateX(-6136px);
+    }
+
+    51%,70% {
+        transform: translateX(-7669px);
+    }
+    71%,80% {
+        transform: translateX(-9203px);
+    }
+    81%,90% {
+        transform: translateX(-10737px);
+    }
+    91%,100% {
+        transform: translateX(-12269px);
+    }
+}

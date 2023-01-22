@@ -1,0 +1,53 @@
+
+
+
+.flex{
+    display: flex;
+   
+}
+.items-center{
+    align-items: center;
+}
+
+.justify-content
+{ justify-items: center;}
+
+.bolder{
+    font-weight: bolder;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+.mx-2{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.footerstyle {
+    font-size: 12px;
+padding: 7px 39px;
+}
+
+.footeritem{
+    font-size: 13px;
+}
+
+.py{
+    padding: 5px 0px;
+    cursor: pointer;
+}
+
+.padding
+{
+    padding: 30px 7px;
+    padding-left: 184px;
+}
+
+.fontcolor{
+    color: black
+}
+
+.cursor{
+    cursor: pointer;
+}
